@@ -1,9 +1,11 @@
 # AMENDED-Console-CSS-test
 
-Updates:
+<b>Updates:</b>
 
-Original HTML has been restored without any edits.
-‘text-overflow: ellipsis’ truncation issue has been resolved using '-webkit-box' attribute.
-Fontawesome icons are now loaded using :before pseudo classes.
-Matching Fontawesome icons have been applied.
-Margins and paddings have been cleaned up.
+<ul>
+  <li>Original HTML has been restored without any edits.</li>
+  <li>‘text-overflow: ellipsis’ truncation issue has been resolved using '-webkit-box' attribute.</li>
+  <li>Fontawesome icons are now loaded using :before pseudo classes.</li>
+  <li>Matching Fontawesome icons have been applied.</li>
+  <li>Margins and paddings have been cleaned up.</li>
+<ul>
