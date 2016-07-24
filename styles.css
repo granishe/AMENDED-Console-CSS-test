@@ -1,0 +1,141 @@
+/* FRONTEND CSS ASSESSMENT - YARWIN KOLFF */
+html,
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	font-family: sans-serif, arial;
+}
+.container{
+	margin-top: 150px;
+	margin-left: 15%;
+	width: 70%;
+	overflow: hidden;
+	border: 1px solid #DDD;
+	border-radius: 6px;
+}
+.container section{
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+}
+.container section .avatar{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background: rgb(20,133,204);
+	text-align: center;
+}
+.container section .main{
+	position: relative;
+	width: 60%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	padding: 55px 0px 50px 0px;
+}
+.container section .main .card{
+	overflow: hidden;
+	border-right: 1px solid #DDD;
+	padding: 0px 30px 0px 30px;
+}
+.avatar:before{
+	color: #FFF;
+	font-family:'FontAwesome';
+}
+.container section .main .card .avatar{
+	float: left;
+	margin-right: 20px;
+}
+.container section .main .card .avatar:before{
+	line-height: 50px;
+	content:"\f2ae";
+	font-size: 32px;
+	line-height: 80px;
+}
+.container section .main .content{
+	display:block;
+	margin-top: 10px;
+	padding-right: 20px;
+}
+.container section .main .content header{
+	display: block;
+	font-size: 20px;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap !important;
+}
+.container section .main .content .sub-header{
+	display: -webkit-box;
+    width: auto;
+    height: 37px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.container section .secondary{
+	position: relative;
+	width: calc(40% - 20px);
+	float: right;
+	overflow: hidden;
+	text-align: center;
+	padding: 20px 20px 20px 0px;
+}
+.container section .secondary .card{
+	margin: 0px 30px 10px 30px;
+}
+.container section .secondary .content header{
+	display: block;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap !important;
+}
+.container section .secondary .content .sub-header{
+	display: block;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap !important;
+}
+.container section .secondary .card .avatar{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+.container section .secondary .card .avatar.paper-plane:before{
+	line-height: 50px;
+	content:"\f1d8";
+}
+.container section .secondary .card .avatar.child:before{
+	line-height: 50px;
+	content:"\f1ae";
+}
+.container section .secondary .card .content{
+	max-height: 16px;
+	overflow: hidden;
+}
+.container footer{
+	clear: both;	
+	font-size: 12px;
+	padding: 18px;
+}
+.container footer .group{
+	width: 40%;
+	float: left;
+	/*padding: 15px 20px 20px 20px;*/
+}
+.container footer .group:last-of-type{
+	width: 80px;
+	float: right;
+}
+.container footer .group a{
+	margin: 0;
+	float: left;
+	clear: both;
+	margin-top: 5px;
+}
+.container footer .group a:last-of-type{
+	margin-bottom: 20px;
+}
